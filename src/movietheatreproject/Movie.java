@@ -10,7 +10,7 @@ package movietheatreproject;
  */
 public class Movie {
     String title;
-    String[] showTimes;
+    String[] randg;
     int[] ticketsLeft;
     
     

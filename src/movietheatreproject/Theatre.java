@@ -17,7 +17,7 @@ public class Theatre {
         shows[0].ticketsLeft=new int[] {150,150};
         shows[0].title = "The Solar Express";
         shows[1]=new Movie();
-        shows[1].title=" We're The Smiths";
+        shows[1].title=" We're The Billers";
         shows[1].randg=new String[] {" rated E", "Comedy"};
         shows[1].ticketsLeft=new int[]{300,300,300};
         shows[2]=new Movie();

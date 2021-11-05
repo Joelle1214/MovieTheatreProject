@@ -11,7 +11,11 @@ package movietheatreproject;
 public class Movie {
     String title;
     String[] randg;
-    int[] ticketsLeft;
+    String[] Theatretype;
+    String userChoice;
+   String Moviechoice;
+ 
+    
     
     
     

@@ -11,19 +11,31 @@ import java.util.*;
 public class Theatre {
     Movie[] shows;
     public Theatre() {
-        shows= new Movie[3];
+        shows= new Movie[6];
         shows[0]=new Movie();
         shows[0].randg=new String[] {" rated E", "sci-fi" };
-        shows[0].ticketsLeft=new int[] {150,150};
+        shows[0].Theatretype=new String[] {"showing in 2D","3D and 4D"};
         shows[0].title = "The Solar Express";
         shows[1]=new Movie();
         shows[1].title=" We're The Billers";
         shows[1].randg=new String[] {" rated E", "Comedy"};
-        shows[1].ticketsLeft=new int[]{300,300,300};
+        shows[1].Theatretype=new String[]{"showing in 2D","3D and 4D"};
         shows[2]=new Movie();
         shows[2].title="Saturday the 14th";
         shows[2].randg=new String[] {" rated R","Horror"};
-        shows[2].ticketsLeft=new int[]{100};
+        shows[2].Theatretype= new String[]{"showing in 2D","3D and 4D"};
+        shows[3] = new Movie();
+        shows[3].title="The Notepad";
+        shows[3].randg= new String[] {"rated PG 13, Romance"};
+        shows[3].Theatretype= new String[]{"showing in 2D","3D and 4D"};
+        shows[4] = new Movie();
+        shows[4].title="Down";
+        shows[4].randg= new String[] {"rated E, Animation"};
+        shows[4].Theatretype= new String[]{"showing in 2D","3D and 4D"};
+        shows[5] = new Movie();
+        shows[5].title="Nebula Conflicts";
+        shows[5].randg= new String[] {"rated PG, Action"};
+        shows[5].Theatretype= new String[]{"showing in 2D","3D and 4D"};
     }
     
     public void displayShows(){
@@ -38,5 +50,9 @@ public class Theatre {
         }
     }
     
-    
+    public Movie pickRandom(){
+        Random rnd=new Random();
+        int choice=rnd.nextInt(this.shows.length);
+        return shows[choice];
+    }
 }

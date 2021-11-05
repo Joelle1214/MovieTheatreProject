@@ -14,7 +14,8 @@ public class Movie {
     String[] Theatretype;
     String userChoice;
    String Moviechoice;
- 
+ String Theaterchoice;
+ int theaterTimes;
     
     
     

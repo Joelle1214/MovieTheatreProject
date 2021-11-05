@@ -56,3 +56,9 @@ public class Theatre {
         return shows[choice];
     }
 }
+public class TypesOfMovies {
+    Movie[] shows;
+    public TypesOfMovies() {
+
+        }
+    }

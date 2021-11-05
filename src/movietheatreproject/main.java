@@ -30,9 +30,11 @@ public class main {
         } else {
             System.out.println("please pick the movie you would like");
         } String Moviechoice= in.nextLine(); 
-        System.out.println("Good choice, which theater would you like to watch this movie in, theater 2D, theater 3D or theater 4D?");
+        System.out.println("Good choice, which theater would you like to watch this movie in,  2D, 3D or 4D?");
         String Theaterchoice= in.nextLine();
     }
+    
+    
 }
 
 

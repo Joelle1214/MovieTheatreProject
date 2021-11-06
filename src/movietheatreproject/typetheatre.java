@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package movietheatreproject;
-
+import java.util.*;
 /**
  *
  * @author Joelle
@@ -13,13 +13,23 @@ public class typetheatre {
     public typetheatre() {
         type= new theatretype[3];
         type[0]=new theatretype();
-        type[0].tandt=new String[] {"2D" };
+        type[0].tandt=new String[] {" 2D" };
         type[0].times=new String[] {"showings at 2:15 PM, 5:55PM and 7:15PM " };
         type[1]=new theatretype();
         type[1].tandt=new String[]{" 3D"};
         type[1].times=new String[] {"showings at 2:15 PM, 5:55PM and 7:15PM " };
        type[2]=new theatretype();
        type[2].tandt=new String[]{" 4D"};
-       type[2].times=new String[] {"showwings at 1:05 PM, 6:25M and 11:15PM " };
+       type[2].times=new String[] {"showings at 1:05 PM, 6:25M and 11:15PM " };
    }
+}
+
+public void Displaytype() {
+for (typetheatre m:type) {
+System.out.println(m.tandt);
+for (String s:m.times) {
+System.out.println(s+ "\t");
+}
+System.out.println("\n");
+  }
 }

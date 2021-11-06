@@ -13,11 +13,12 @@ public class Movie {
     String[] randg;
     String[] Theatretype;
     String userChoice;
-   String Moviechoice;
- String Theaterchoice;
- int theaterTimes;
- String choice;
-      
+    String Moviechoice;
+    String Theaterchoice;
+    int theaterTimes;
+    String choice;
+    int price;
+
     
 }
 

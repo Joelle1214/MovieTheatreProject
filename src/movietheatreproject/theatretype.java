@@ -8,6 +8,7 @@ package movietheatreproject;
  *
  * @author Joelle
  */
-public class Theatretype {
-    
+public class theatretype {
+    String [] tandt;
+    String [] times;
 }

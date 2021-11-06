@@ -17,7 +17,8 @@ public class Movie {
  String Theaterchoice;
  int theaterTimes;
  String choice;
-    
-    
+      
     
 }
+
+

@@ -30,8 +30,20 @@ public class main {
         } else {
             System.out.println("please pick the movie you would like");
         } String Moviechoice= in.nextLine(); 
-        System.out.println("Good choice, which theater would you like to watch this movie in,  2D, 3D or 4D?");
+        System.out.println("Good choice, which theater would you like to watch this movie in,  1 for 2D, 2 for 3D or 3 for 4D?");
         String Theaterchoice= in.nextLine();
+         char Theatertype = in.nextLine().toLowerCase().charAt(0); 
+         if (Theatertype== '1') {
+        System.out.println("Great, these are the show times in 2D for the movie"+Moviechoice+"2:15 PM, 5:55PM and 7:15PM which time would you like?");
+        String choice= in.nextLine();
+         } else if (Theatertype=='2') {
+        System.out.println("Great, these are the show times in 2D for the movie"+Moviechoice+"3:15 PM, 4:45PM and 8:20PM which time would you like?");
+        String choice= in.nextLine();
+    } else {
+        System.out.println("Great, these are the show times in 2D for the movie"+Moviechoice+"1:05 PM, 6:25M and 11:15PM which time would you like?");
+        String choice= in.nextLine();
+    } 
+    }
     }
     
     

@@ -6,18 +6,8 @@ package movietheatreproject;
 
 /**
  *
- * @author SPH_SHSM
+ * @author Joelle
  */
-public class Movie {
-    String title;
-    String[] randg;
-    String[] Theatretype;
-    String userChoice;
-   String Moviechoice;
- String Theaterchoice;
- int theaterTimes;
- String choice;
-    
-    
+public class theatredata {
     
 }

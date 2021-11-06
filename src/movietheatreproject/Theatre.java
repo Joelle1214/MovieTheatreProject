@@ -13,16 +13,16 @@ public class Theatre {
     public Theatre() {
         shows= new Movie[6];
         shows[0]=new Movie();
-        shows[0].randg=new String[] {" rated E", "sci-fi" };
+        shows[0].randg=new String[] {" rated E, sci-fi" };
         shows[0].Theatretype=new String[] {"showing in 2D","3D and 4D"};
         shows[0].title = "The Solar Express";
         shows[1]=new Movie();
         shows[1].title=" We're The Billers";
-        shows[1].randg=new String[] {" rated E", "Comedy"};
+        shows[1].randg=new String[] {" rated E, Comedy"};
         shows[1].Theatretype=new String[]{"showing in 2D","3D and 4D"};
         shows[2]=new Movie();
         shows[2].title="Saturday the 14th";
-        shows[2].randg=new String[] {" rated R","Horror"};
+        shows[2].randg=new String[] {" rated R, Horror"};
         shows[2].Theatretype= new String[]{"showing in 2D","3D and 4D"};
         shows[3] = new Movie();
         shows[3].title="The Notepad";
@@ -56,9 +56,3 @@ public class Theatre {
         return shows[choice];
     }
 }
-public class TypesOfMovies {
-    Movie[] shows;
-    public TypesOfMovies() {
-
-        }
-    }

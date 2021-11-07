@@ -9,5 +9,8 @@ package movietheatreproject;
  * @author Joelle
  */
 public class snacks {
+    String []popcorn;
+    String [] hotdog;
+    String [] soda;
     
 }

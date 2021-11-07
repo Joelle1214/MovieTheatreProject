@@ -56,7 +56,11 @@ public class main {
              } else {
                  System.out.println("Perfect, your total will be calculated and given back to you");
                  
-             }
+             } 
+             // this section will ask about the snacks
+             
+             // this section will ask what seats the user would like
+             
     } 
     }
     }

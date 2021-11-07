@@ -8,6 +8,7 @@ import java.util.*;
  *
  * @author Joelle
  */
+// this is supposed to print out the showing times depending on the way they choose to watch the movie 
 public class typetheatre {
      theatretype[] type;
     public typetheatre() {

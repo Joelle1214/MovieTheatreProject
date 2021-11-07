@@ -18,7 +18,8 @@ public class Movie {
     int theaterTimes;
     String choice;
     int price;
-
+ String ticketAmount;
+ 
     
 }
 

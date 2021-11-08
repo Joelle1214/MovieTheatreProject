@@ -42,9 +42,10 @@ public class main {
            System.out.println("To watch this movie in 3D you will have to pay $20.99 per ticket");
        } else {
            System.out.println(" To watch this movie in 4D you will have to pay $24.99 per ticket");
-           System.out.println("Since you have picked theater " + Theatertype + " these are the showtimes");
+          
            // printing out the theater times based on which theater was picked 
            typetheatre type = new typetheatre();
+           System.out.println("These are the times we have for each type (2D,3D or 4D)");
      type.Displaytype(); 
            
            //this section is for the ticket amounts and the total final price

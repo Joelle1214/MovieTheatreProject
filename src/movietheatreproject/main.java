@@ -35,7 +35,7 @@ public class main {
         // this sections is meant for the way they would like to watch the movie and the prices for the movie 
         System.out.println("Our theatre has different ways you can watch the movie 2D, 3D and 4D. The times of the movies will be shown depeding if you pick 2D, 3D or 4D. ");
        System.out.println("Please pick 1 for 2D, 2 for 3D and 3 for 4D");
-        char Theatertype = in.nextLine().toLowerCase().charAt(0);
+        int Theatertype = in.nextInt();
        if (Theatertype==1){
            System.out.println("to watch it in 2D you wil have to pay $18.99 per ticket");
        } else if (Theatertype==2) {

@@ -19,7 +19,7 @@ public class typetheatre {
         type = new theatretype[3];
         type[0] = new theatretype();
         type[0].tandt = new String[]{" 2D"};
-        type[0].times = new String[]{"showings at 2:15 PM, 5:55PM and 7:15PM "};
+        type[0].times = new String[]{"2:15 PM", "5:55PM", "7:15PM "};
         type[1] = new theatretype();
         type[1].tandt = new String[]{" 3D"};
         type[1].times = new String[]{"showings at 2:15 PM, 5:55PM and 7:15PM "};
@@ -28,25 +28,20 @@ public class typetheatre {
         type[2].times = new String[]{"showings at 1:05 PM, 6:25M and 11:15PM "};
     }
 
-    public void Displaytype() {
-        int counter=1;
-        for (theatretype m : type) {
-            System.out.println(counter+ ": "+ m.tandt);
-            for (String s : m.times) {
-                System.out.println(s + "\t");
-            }
-            System.out.println("\n");
-            counter ++;
+    public void Displaytype(int choice) {
+        int counter = 1;
+
+        for (String s : type[choice].times) {
+            System.out.println(counter + ") " + s + "\t");
+            counter++;
         }
-    }
-
-
-   public typetheatre pickRandom(){
-        Random rnd=new Random();
-        int choice=rnd.nextInt(this.type.length);
-        return type [];
+        System.out.println("\n");
     }
 }
-    
 
-   
+//   public typetheatre pickRandom(){
+//        Random rnd=new Random();
+//        int choice=rnd.nextInt(this.type.length);
+//        return type [];
+//    }
+

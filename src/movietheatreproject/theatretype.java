@@ -11,4 +11,5 @@ package movietheatreproject;
 public class theatretype {
     String [] tandt;
     String [] times;
+ 
 }

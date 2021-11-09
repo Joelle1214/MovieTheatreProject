@@ -29,12 +29,24 @@ public class typetheatre {
     }
 
     public void Displaytype() {
+        int counter=1;
         for (theatretype m : type) {
-            System.out.println(m.tandt);
+            System.out.println(counter+ ": "+ m.tandt);
             for (String s : m.times) {
                 System.out.println(s + "\t");
             }
             System.out.println("\n");
+            counter ++;
         }
     }
+
+
+   public typetheatre pickRandom(){
+        Random rnd=new Random();
+        int choice=rnd.nextInt(this.type.length);
+        return type [];
+    }
 }
+    
+
+   

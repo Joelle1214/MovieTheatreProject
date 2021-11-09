@@ -35,24 +35,27 @@ public class main {
         // this sections is meant for the way they would like to watch the movie and the prices for the movie 
         System.out.println("Our theatre has different ways you can watch the movie 2D, 3D and 4D. The times of the movies will be shown depeding if you pick 2D, 3D or 4D. ");
        System.out.println("Please pick 1 for 2D, 2 for 3D and 3 for 4D");
-        char Theatertype = in.nextLine().toLowerCase().charAt(0);
+        int Theatertype = in.nextInt();
        if (Theatertype==1){
            System.out.println("to watch it in 2D you wil have to pay $18.99 per ticket");
        } else if (Theatertype==2) {
            System.out.println("To watch this movie in 3D you will have to pay $20.99 per ticket");
        } else {
            System.out.println(" To watch this movie in 4D you will have to pay $24.99 per ticket");
-           System.out.println("Since you have picked theater " + Theatertype + " these are the showtimes");
+           System.out.println("Since you have picked theater " + Theatertype + " these are the showtimes");}
            // printing out the theater times based on which theater was picked 
-           typetheatre type = new typetheatre();
-     type.Displaytype(); 
+           typetheatre type = new typetheatre(); 
+           System.out.println("These are the times we have for each type (2D,3D or 4D)");
+            t.Displaytype(); 
+            String times= in.nextLine();
+             System.out.println("Please enter the amount of tickets you want, keep in  mind we have limited quantities ");
            
+           int time= in.nextInt();
            //this section is for the ticket amounts and the total final price
-            System.out.println("Please enter the amount of tickets you want, keep in  mind we have limited quantities ");
-           
-             char ticketAmount = in.nextLine().toLowerCase().charAt(0);
-             if (ticketAmount<9) {
-                 System.out.println("Sorry we do not have more then "+ ticketAmount + "please enter a different amount");
+    
+             int  ticketAmount = in.nextInt();
+             if (ticketAmount>9) {
+                 System.out.println("Sorry we do not have  "+ ticketAmount + " tickets please enter a different amount");
              } else {
                  System.out.println("Perfect, your total will be calculated and given back to you");
                  
@@ -63,9 +66,9 @@ public class main {
              
     } 
     }
-    }
     
     
+      
 
 
 

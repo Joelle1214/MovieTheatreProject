@@ -55,11 +55,7 @@ public class Theatre {
         int choice=rnd.nextInt(this.shows.length);
         return shows[choice];
     }
-
-    void Displaytype() { 
-       
-        }
-    }
+}
        
     
 

@@ -22,10 +22,10 @@ public class typetheatre {
         type[0].times = new String[]{"2:15 PM", "5:55PM", "7:15PM "};
         type[1] = new theatretype();
         type[1].tandt = new String[]{" 3D"};
-        type[1].times = new String[]{"showings at 2:15 PM, 5:55PM and 7:15PM "};
+        type[1].times = new String[]{"3:25PM", "4:20PM", "9:15PM"};
         type[2] = new theatretype();
         type[2].tandt = new String[]{" 4D"};
-        type[2].times = new String[]{"showings at 1:05 PM, 6:25M and 11:15PM "};
+        type[2].times = new String[]{"1:30PM", "2:50PM", "6:30PM"};
     }
 
     public void Displaytype(int choice) {
@@ -39,9 +39,4 @@ public class typetheatre {
     }
 }
 
-//   public typetheatre pickRandom(){
-//        Random rnd=new Random();
-//        int choice=rnd.nextInt(this.type.length);
-//        return type [];
-//    }
 
